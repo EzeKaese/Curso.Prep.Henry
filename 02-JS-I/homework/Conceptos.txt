@@ -1,0 +1,44 @@
+Variables
+Las variables son elementos que se pueden reprogramar a gusto con el fin 
+de almacenar una informacion que puede ser util para despues.
+
+
+Strings
+Las strings es definido como un bloque de texto y solo sera interpretedo de 
+esta manera a lo hora de usarlo, siempre se definira entre comillas; 
+ejemplo var string = 'Arepa';
+
+Funciones
+Las funciones son un conjunto de procesos que seran ejecutados en orden, cumpliendo
+con una serie de condiciones y reglas predefinidas, en las funciones encontramos
+los argumentos que le daran variavilidad al resultado de nuestra funcion, con el
+fin de retornar un dato que puede ser ejecutado con return; 
+ejemplo
+function nombre_de_la_funcion(argumentos){
+    return 'datos a retornar'
+}
+
+Declaraciones
+Esta es una serie condiciones que deben de cumplirse con el fin
+de retornar un valor o dato espefico, muy bien podrian ser varias condiciones 
+a cumplir para obtener una respuesta solicitada; ejemplo
+//Ejecutare una funcion que cumpla 2 condiciones que me de como resultado una 
+sentencia si se cumple la primera y otra se cumple la segunda
+function ejemplo(numero) {
+  if (numero>=1) {
+      //aqui se cumplira esta funcion y retornara un bloque de datos si
+      el numero es igual o mayor a 1
+    return ('Es positivo')
+  } else if (numero<=-1) {
+      //aqui si el numero es menor o igual que -1 y retornara el bloque de 
+      datos indicado
+    return ('Es negativo')
+  } 
+  
+}
+
+Valores booleanos
+Estos son valores que pueden ser representados como una respuesta verdadera o 
+falsa que se interpretaran en ingles como true si es verdadera o false si
+es falso, se utilizan para responder un condicion logica si esta condicion se 
+cumple sera true y si no sera false.
