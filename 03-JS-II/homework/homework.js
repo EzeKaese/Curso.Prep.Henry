@@ -21,7 +21,7 @@ function mayoriaDeEdad(edad) {
   if (edad>=18){
     return ('Allowed')
   } else if (edad<=17){
-    return ('Not Allowed')
+    return ('Not allowed')
   }
 }
   
@@ -84,7 +84,7 @@ function colors(color) {
   }else if (color == 'orange'){
     return orange
   } else {
-    return ('Color not Found')
+    return ('Color not found')
   }
 }
 
@@ -193,7 +193,7 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   var a = 6
-  for (let i = 1; i <=10 ; i++){
+  for (let i = 0; i <=10 ; i++){
     console.log(a*i);
   }
 }
